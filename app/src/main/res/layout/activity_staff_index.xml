@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StaffIndex">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+    <Button
+        android:id="@+id/sign_in"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/cardview_default_radius"
+        android:background="@color/buttonColor"
+        android:text="打卡"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="26dp" />
+        <Button
+            android:id="@+id/personal_record"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/buttonColor"
+            android:layout_margin="@dimen/cardview_default_radius"
+            android:text="记录"
+            android:textSize="25dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="26dp" />
+        <TextView
+            android:id="@+id/record_message"
+            android:singleLine="false"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <!--
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/begin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开始"/>
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="textView"/>
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="textView"/>
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="textView"/>
+        </LinearLayout> -->
+    </LinearLayout>
+
+</LinearLayout>
